@@ -1,0 +1,34 @@
+{
+  "name": "express-knex-postgresql",
+  "version": "1.0.0",
+  "description": "Sample API Service using express,knex and postgresql",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "keywords": [
+    "express",
+    "knex",
+    "postgresql",
+    "nodejs",
+    "migration",
+    "seed"
+  ],
+  "author": "Kumaresan K <tkkumaresan@gmail.com> (https://github.com/kumaresank)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/kumaresank/express-knex-postgreSQL.git"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "knex": "^0.15.2",
+    "morgan": "~1.9.0",
+    "pg": "^7.4.3"
+  }
+}
